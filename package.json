@@ -1,0 +1,16 @@
+{
+  "name": "clasifier",
+  "version": "1.0.0",
+  "description": "Takes all photos inside a location and indexes them into folders and subfolders according to their creation date",
+  "main": "doClasify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Javier Ortegon Tesías",
+  "license": "ISC",
+  "dependencies": {
+    "exif": "^0.6.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
